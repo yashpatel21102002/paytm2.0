@@ -1,4 +1,5 @@
 {
+  "globalEnv": ["NEXTAUTH_SECRET", "NEXTAUTH_URL"],
   "$schema": "https://turbo.build/schema.json",
   "globalDependencies": ["**/.env.*local"],
   "pipeline": {
